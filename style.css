@@ -127,3 +127,122 @@
     width: 95%;
   }
 }
+
+.container {
+  margin: 3rem auto;
+  width: 90%;
+}
+
+.we__offer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.we__offer_card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid gainsboro;
+  transition: all ease 0.3s;
+}
+
+.we__offer_card:hover {
+  transform: scale(1.05);
+}
+
+.we__offer_card img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.we__offer_content {
+  padding: 15px;
+}
+
+.we__offer_content h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.we__offer_content p {
+  font-size: 12px;
+}
+
+.collection .sub_heading_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.sub_heading_container span:nth-child(2) a {
+  text-decoration: none;
+  color: rgb(235, 80, 80);
+}
+
+.collection__card_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+}
+ 
+.card {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  height: 310px;
+  width: 230px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url(/images/collection1.jpg);
+}
+
+.card2 {
+  background-image: url(/images/collection2.jpg);
+}
+
+.card3 {
+  background-image: url(/images/collection3.jpg);
+}
+
+.card4 {
+  background-image: url(/images/collection4.jpg);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 12px 15px;
+  color: white;
+}
+
+.content h4 {
+  font-weight: 400;
+}
